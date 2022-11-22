@@ -40,7 +40,7 @@ view model =
             ]
         , div [ class "flex justify-center" ]
             [ img
-                [ src (urlPrefix ++ "large/" ++ model.selectedUrl), class "col-span-1" ]
+                [ src (urlPrefix ++ "large/" ++ model.selectedUrl), class "max-w-[300px]" ]
                 []
             ]
         ]
